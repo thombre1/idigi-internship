@@ -1,0 +1,10 @@
+glib==1.0.0
+graphviz==0.21
+joblib==1.5.3
+numpy==2.4.2
+pydotplus==2.0.2
+pyparsing==3.3.2
+scikit-learn==1.8.0
+scipy==1.17.1
+threadpoolctl==3.6.0
+xgboost==3.2.0

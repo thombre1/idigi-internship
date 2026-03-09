@@ -1,0 +1,27 @@
+[ 21% ] Machine Learning, Data Science & AI Engineering with Python - Sundog Education by Frank Kane
+[ Learnings ]
+R-squared measures
+How well a line fits my data 
+Linear Regression for Simplicity and Higher Degree Polynomial Regression can cause Overfitting which affects the prediction on new data
+z-score importance and statsmodel.api.add_constant(x) to add a y intercept to bring the data upto a certain baseline (not zero)
+Supervised Learning and Unsupervised Learning introduction
+
+[ Actions ]
+Gauged how degree of polynomial regression is necessary and how Rsquared value is affected with it, high degree will give more rsquared value and vice versa.
+
+
+
+
+[ 25% ] Full stack generative and Agentic AI with python - Hitesh Choudhary, Piyush Garg
+[ Learnings ]
+Generator - Good for Memory Efficiency | Used for things like infinite scrolling
+Decorators - takes a function adds some functionality and returns a new function, without changing the source code
+NameSpace: function name space, class name space
+Attribute Shadowing: methods can either access the variables above their scope and modify their properties in their own scope
+Making Classess and Objects, using __init__ as constructor
+self as an argument used for access the attributes of the class itself(not the object), comparable to 'this' keyword in other language
+inheritance by defining the class and putting the class we want to inherit from in the parenthesis of the current class
+composition is taking the instace of a class and storing it in a variable inside another class and then using it through the variable, to change and modify the behaviour of the class's copy without changing the source code
+
+[ Actions ]
+understood how decorators work
