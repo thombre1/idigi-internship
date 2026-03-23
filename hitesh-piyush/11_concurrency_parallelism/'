@@ -1,0 +1,27 @@
+import requests
+import threading
+
+def downloader(url):
+    print("Starting download")
+    resp = requests.get(url)
+    print(f"Download Finished. [ {len(resp.content)} ]")
+
+urls = [
+    "https://httpbin.org/image/jpeg",
+    "https://httpbin.org/image/png",
+    "https://httpbin.org/image/svg",
+        ]
+
+# Start the timer
+start = time.time()
+
+# Thread doesnt require a main method
+ threads = [threading.Thread(target="downloader",args=(url)) for url in urls]
+
+[thread.start() for thread in threads]
+[thread.join() for thread in threads]
+
+
+ # End the thing
+ end = time.time()
+    
