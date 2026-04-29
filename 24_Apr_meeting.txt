@@ -1,0 +1,13 @@
+Good Evening
+This month I did learnings in 3 Major Domain
+	1. Docker
+	2. Spark and Mostly MLLib
+	3. ReportLab as a tool for WelcomeKit Generation
+
+Docker can be used to deploy our app in a containerized format, I learnt how to pull popularly used docker image from docker hub, familiarity with CLI commands and building our own docker image
+Properly Ordering Docker Commands in the Dockerfile is crucial else redundant steps will be repeated when creating a docker image.
+
+Spark is a tool for parallel computation for data analytics, I learnt how to use a term and search it across document for relevance, caching the intermediate results, zipping and collecting the results across computers and showing the result
+
+On the project side that was given, I refined the OCR to detect hard to read characters like 1 and l or O and 0, explored Welcomekit Generation Tools and the most popular one was ReportLab PDF maker's JSON to PDF functionality.
+I took sample data in an 'input.json' file and then created a python script which had reportlab module used to generate a PDF
