@@ -1,4 +1,4 @@
 ### Vector Embedding 
 
-![]() <img src="./screenshot-2026-05-23_14-12-57.png)" width="120">
-I used genai gemini-embedding-2 model, the results are the above
+![Embedding](./screenshot-2026-05-23_14-12-57.png)
+The Result of Vector Embedding...
